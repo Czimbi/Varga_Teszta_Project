@@ -1,0 +1,22 @@
+{
+  "name": "varga_teszta_project",
+  "version": "1.0.0",
+  "description": "Let's get started.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Czimbi/Varga_Teszta_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Czimbi/Varga_Teszta_Project/issues"
+  },
+  "homepage": "https://github.com/Czimbi/Varga_Teszta_Project#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
