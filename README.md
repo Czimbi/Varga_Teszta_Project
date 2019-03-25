@@ -1,4 +1,5 @@
 # Varga_Teszta_Project
-Let's get started.
-1st of all i will make the navigationbar and the carousel.
-Okay done after 5 hours of head ache.
+Now im doing the footer and some styleing.
+I belive it is going to be great :).
+Headache by the font awesome envelope styleing. 
+I hate the envelope.

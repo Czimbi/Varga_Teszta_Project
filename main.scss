@@ -1,2 +1,7 @@
 
+// Color system
+$blue:    #007bfe !default;
+//Card styleing
+$card-bg:                           $blue;
+
 @import "node_modules/bootstrap/scss/bootstrap";
