@@ -1,7 +1,4 @@
 
-// Color system
-$blue:    #007bfe !default;
-//Card styleing
-$card-bg:                           $blue;
+$card-columns-gap:                  0.5 rem;
 
 @import "node_modules/bootstrap/scss/bootstrap";
