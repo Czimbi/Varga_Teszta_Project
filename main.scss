@@ -1,4 +1,67 @@
+// Color system
+$white:    #fff !default;
+$black:    #000 !default;
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #f04242; 
+$red:     #940b0b;
+$orange:  #FFFF6B;
+$yellow:  rgba(226, 89, 65, 0.726);
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
 
-$card-columns-gap:                  0.5 rem;
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "blue":       $blue,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
+    "red":        $red,
+    "orange":     $orange,
+    "yellow":     $yellow,
+    "green":      $green,
+    "teal":       $teal,
+    "cyan":       $cyan,
+    "white":      $white,
+  ),
+  $colors
+);
+
+$primary:       $blue !default;
+$success:       $green !default;
+$info:          $red;
+$warning:       $yellow;
+$danger:        $red;
+//nav bar styling
+$navbar-light-color:                rgba($yellow, .5);
+$navbar-light-hover-color:          rgba($black, .7);
+$navbar-light-active-color:         rgba($black, .9);
+//background
+$body-bg:                   $orange;
+//border style
+$border-color:                $red;
+$border-width:                4px;
+//card style
+$card-border-width:                 0px;
+$card-border-color:                 $orange;
+$card-cap-bg:                       rgba($yellow, .03);
+$card-cap-color:                    null !default;
+$card-color:                        null;
+$card-bg:                           $orange;
+
+$card-img-overlay-padding:          1.25rem !default;
+
+$card-columns-count:                3 !default;
+$card-columns-gap:                  1.25rem !default;
+$card-img-overlay-padding:          0rem;
+
+//list
+$list-group-bg:                     $orange;
+//Font
+$font-size-base:              1.5rem;
 
 @import "node_modules/bootstrap/scss/bootstrap";
