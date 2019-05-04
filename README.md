@@ -1,2 +1,2 @@
 # Varga_Teszta_Project
-Something what we call styleing lmao
+This is my first real project where I make the "backend" and the frontend as well.
