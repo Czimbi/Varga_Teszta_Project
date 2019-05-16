@@ -63,5 +63,11 @@ $card-img-overlay-padding:          0rem;
 $list-group-bg:                     $orange;
 //Font
 $font-size-base:              1.5rem;
+//carousel
+$carousel-indicator-width:           40px;
+$carousel-indicator-height:          4px;
+$carousel-indicator-hit-area-height: 10px !default;
+$carousel-indicator-spacer:          3px !default;
+$carousel-indicator-active-bg:       $red;
 
 @import "node_modules/bootstrap/scss/bootstrap";
