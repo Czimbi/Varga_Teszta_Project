@@ -41,33 +41,44 @@ $navbar-light-color:                rgba($yellow, .5);
 $navbar-light-hover-color:          rgba($black, .7);
 $navbar-light-active-color:         rgba($black, .9);
 //background
-$body-bg:                   $orange;
+$body-bg:                   $white;
 //border style
 $border-color:                $red;
 $border-width:                4px;
 //card style
 $card-border-width:                 0px;
-$card-border-color:                 $orange;
+$card-border-color:                 $white;
 $card-cap-bg:                       rgba($yellow, .03);
 $card-cap-color:                    null !default;
 $card-color:                        null;
-$card-bg:                           $orange;
+$card-bg:                           $white;
 
 $card-img-overlay-padding:          1.25rem !default;
 
 $card-columns-count:                3 !default;
 $card-columns-gap:                  1.25rem !default;
 $card-img-overlay-padding:          0rem;
+$card-spacer-y:                     .75rem;
+$card-columns-margin:               2rem;
 
 //list
-$list-group-bg:                     $orange;
+$list-group-bg:                     $white;
 //Font
-$font-size-base:              1.5rem;
+$font-size-base:              1rem;
 //carousel
 $carousel-indicator-width:           40px;
 $carousel-indicator-height:          4px;
 $carousel-indicator-hit-area-height: 10px !default;
 $carousel-indicator-spacer:          3px !default;
 $carousel-indicator-active-bg:       $red;
+
+//container
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1500px,
+);
 
 @import "node_modules/bootstrap/scss/bootstrap";
