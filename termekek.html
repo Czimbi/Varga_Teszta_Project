@@ -13,7 +13,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
   <!--Font awesome import-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  </head>
+<style>
+#popup3{
+  display: none;
+}
+#popup2{
+  display: none;
+}
+#popup1{
+  display: none;
+}
+</style>  
+</head>
 <body>
    <!--making the navbar-->
    <nav class="navbar navbar-expand-md navbar-white border-bottom">
@@ -38,51 +49,340 @@
       <div class="card mb-3 w-100">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="kepek/16-meret.jpg" class="card-img" alt="8 tojásos">
+            <img src="kepek/16-meret.jpg" class="card-img" alt="8 tojásos" height="300px" width="100px">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">8 tojásos lakodalmas csiga tészta.</h5>
               <p class="card-text">Ide még mindig nem tudom mennyi szöveg lesz írva, szóval rád bízom mekkorák legyenek a képek.</p>
               <p class="card-text">Max 3 sor lesz szerintem de lehet, hogy még annál is kevesebb.</p>
+              <button onclick="document.getElementById('popup1').style.display='inline-block'">Több információ...</button>
             </div>
           </div>
         </div>
       </div>
+      <div class="container" id="popup1">
+          <div style="align-content: center">További 0 tojásos tészták</div>
+        <div class="card-group">
+          <!--1st card-->
+          <div class="col-md-auto">
+          <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+              <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+              <div class="card-body">
+                <h5 class="card-title">Betű tészta (ABC)</h5>
+                <p class="card-text">500g</p>
+              </div>
+            </div>
+          </div>
+            <!--/1st card-->
+            <!--2nd card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/2nd card-->
+                <!--3rd card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/3rd card-->
+                <!--4th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/4th card-->
+                <!--5th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/5th card-->
+                <!--6th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/6th card-->
+                <!--7th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/7th card-->
+                <!--8th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/8th card-->
+        </div>
+       <button onclick="document.getElementById('popup1').style.display='none'">Kevesebb</button>
+       </div>
 
       <!--next row-->
 
       <div class="card mb-3 w-100">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="kepek/17-meret.jpg" class="card-img" alt="4 tojásos">
+            <img src="kepek/17-meret.jpg" class="card-img" alt="4 tojásos" height="300px" width="100px">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">4 tojásos lakodalmas csiga tészta.</h5>
+              <h5 class="card-title">4 tojásos tészták.</h5>
               <p class="card-text">Ide még mindig nem tudom mennyi szöveg lesz írva, szóval rád bízom mekkorák legyenek a képek.</p>
               <p class="card-text">Max 3 sor lesz szerintem de lehet, hogy még annál is kevesebb.</p>
+              <button onclick="document.getElementById('popup2').style.display='inline-block'">Több információ...</button>
             </div>
           </div>
         </div>
       </div>
+      <!--pop up windom-->
+      <div class="container" id="popup2">
+          <div style="align-content: center">További 0 tojásos tészták</div>
+        <div class="card-group">
+          <!--1st card-->
+          <div class="col-md-auto">
+          <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+              <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+              <div class="card-body">
+                <h5 class="card-title">Betű tészta (ABC)</h5>
+                <p class="card-text">500g</p>
+              </div>
+            </div>
+          </div>
+            <!--/1st card-->
+            <!--2nd card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/2nd card-->
+                <!--3rd card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/3rd card-->
+                <!--4th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/4th card-->
+                <!--5th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/5th card-->
+                <!--6th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/6th card-->
+                <!--7th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/7th card-->
+                <!--8th card-->
+          <div class="col-md-auto">
+              <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                  <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                  <div class="card-body">
+                    <h5 class="card-title">Betű tészta (ABC)</h5>
+                    <p class="card-text">500g</p>
+                  </div>
+                </div>
+              </div>
+                <!--/8th card-->
+        </div>
+       <button onclick="document.getElementById('popup2').style.display='none'">Kevesebb</button>
+       </div>
 
       <!--next row-->
 
       <div class="card mb-3 w-100">
           <div class="row no-gutters">
             <div class="col-md-4">
-              <img src="kepek/1-meret.jpg" class="card-img" alt="0 tojásos">
+              <img src="kepek/1-meret.jpg" class="card-img" alt="0 tojásos" height="300px" width="100px">
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">0 tojásos lakodalmas csiga tészta.</h5>
+                <h5 class="card-title">0 tojásos tészták.</h5>
                 <p class="card-text">Ide még mindig nem tudom mennyi szöveg lesz írva, szóval rád bízom mekkorák legyenek a képek.</p>
                 <p class="card-text">Max 3 sor lesz szerintem de lehet, hogy még annál is kevesebb.</p>
+                <button onclick="document.getElementById('popup3').style.display='inline-block'">Több információ...</button>
               </div>
             </div>
           </div>
         </div>
+        <!--pop up windom-->
+        <div class="container" id="popup3">
+            <div style="align-content: center">További 0 tojásos tészták</div>
+          <div class="card-group">
+            <!--1st card-->
+            <div class="col-md-auto">
+            <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                <div class="card-body">
+                  <h5 class="card-title">Betű tészta (ABC)</h5>
+                  <p class="card-text">500g</p>
+                </div>
+              </div>
+            </div>
+              <!--/1st card-->
+              <!--2nd card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/2nd card-->
+                  <!--3rd card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/3rd card-->
+                  <!--4th card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/4th card-->
+                  <!--5th card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/5th card-->
+                  <!--6th card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/6th card-->
+                  <!--7th card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/7th card-->
+                  <!--8th card-->
+            <div class="col-md-auto">
+                <div class="card" style="width: 18rem; margin: 0; padding: 2rem;">
+                    <img src="kepek/1-meret.jpg" class="card-img-top" alt="image" >
+                    <div class="card-body">
+                      <h5 class="card-title">Betű tészta (ABC)</h5>
+                      <p class="card-text">500g</p>
+                    </div>
+                  </div>
+                </div>
+                  <!--/8th card-->
+          </div>
+         <button onclick="document.getElementById('popup3').style.display='none'">Kevesebb</button>
+         </div>
+     </div>
+
 
     </div>
   <!--/content-->
