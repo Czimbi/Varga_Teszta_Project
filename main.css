@@ -3769,6 +3769,7 @@ input[type=button].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem;
   background-image: url(kepek/navi_1.jpg);
+  background-size: cover;
 }
 .navbar > .container,
 .navbar > .container-fluid {
