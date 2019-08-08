@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--My css-->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" href="my.css">
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -25,16 +26,16 @@
 <body>
    <!--making the navbar-->
    <nav class="navbar navbar-expand-md navbar-white border-bottom">
-    <a class="navbar-brand" href="#"><img src="kepek/Varga_logo.png" alt="Varga tészta logó" width="100" height="60" id="logo_left_margin"></a>
+    <a class="navbar-brand" href="index.html"><img src="kepek/Varga_logo.png" alt="Varga tészta logó" width="100" height="60" id="logo_left_margin"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav biggerText">
-        <a class="nav-item nav-link text-white" href="index.html">Főoldal</a>
-        <a class="nav-item nav-link text-white active" href="#">Termékek <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link text-white" href="rolunk.html">Rólunk</a>
-        <a class="nav-item nav-link text-white" href="kapcsolatok.html">Kapcsolat</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="index.html">Főoldal</a>
+        <a class="nav-item nav-link text-white active navbarcontent" href="#">Termékek <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link text-white navbarcontent" href="rolunk.html">Rólunk</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="kapcsolatok.html">Kapcsolat</a>
       </div>
     </div>
   </nav>
@@ -46,7 +47,7 @@
       <div class="card mb-3 w-100">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="kepek/IMG_8142_1.jpg" class="card-img" alt="8 tojásos" height="300px" width="100px">
+            <img src="kepek/IMG_8142_1.png" class="card-img" alt="8 tojásos" height="400px" width="100px">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -63,14 +64,14 @@
       <div class="card mb-3 w-100">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img src="kepek/IMG_8147_1.jpg" class="card-img" alt="4 tojásos" height="300px" width="100px">
+           <!--The image is also the button for the dropdown.-->
+            <img src="kepek/IMG_8171_1.png" class="card-img navbarcontent" alt="4 tojásos" height="400px" width="100px"  onclick="document.getElementById('popup2').style.display='inline-block'">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">4 tojásos tészták.</h5>
               <p class="card-text">Ide még mindig nem tudom mennyi szöveg lesz írva, szóval rád bízom mekkorák legyenek a képek.</p>
               <p class="card-text">Max 3 sor lesz szerintem de lehet, hogy még annál is kevesebb.</p>
-              <button onclick="document.getElementById('popup2').style.display='inline-block'">Több információ...</button>
             </div>
           </div>
         </div>
@@ -308,14 +309,14 @@
       <div class="card mb-3 w-100">
           <div class="row no-gutters">
             <div class="col-md-4" >
-            <img src="kepek/filleres_1.jpg" class="card-img" alt="0 tojásos" height="300px" width="100px"> 
+              <!--The image is also the button for the dropdown.-->
+            <img src="kepek/filleres_5.png" class="card-img navbarcontent" alt="0 tojásos" height="400px" width="100px" onclick="document.getElementById('popup3').style.display='inline-block'"> 
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">0 tojásos tészták.</h5>
                 <p class="card-text">Ide még mindig nem tudom mennyi szöveg lesz írva, szóval rád bízom mekkorák legyenek a képek.</p>
                 <p class="card-text">Max 3 sor lesz szerintem de lehet, hogy még annál is kevesebb.</p>
-                <button onclick="document.getElementById('popup3').style.display='inline-block'">Több információ...</button>
               </div>
             </div>
           </div>
@@ -502,7 +503,7 @@
      <footer class="footer mt-auto">
       <!--card 1-->
           <div class="card border-top">
-              <div class="card-body bg-white text-white"  style="background-image: url(kepek/footer_1.jpg); background-size: cover;">
+              <div class="card-body bg-white text-white footer_img">
                 <div class="card-text">
                 <div class="card-text"><b>Elérhetőségek:</b> <b>Telefon: </b> 06 (30) 399 4000 <b>Email: </b> pelda@gmail.com</div> 
                 <a class="card-text" href="https://www.facebook.com/Varga-T%C3%A9szta-1900992010133173/" target="mother"><i class="fab fa-facebook-square"></i></a>

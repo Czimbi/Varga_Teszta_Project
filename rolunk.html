@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--My css-->
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="my.css">
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -17,35 +18,84 @@
 <body>
    <!--making the navbar-->
    <nav class="navbar navbar-expand-md navbar-white border-bottom">
-    <a class="navbar-brand" href="#"><img src="kepek/Varga_logo.png" alt="Varga tészta logó" width="100" height="60" id="logo_left_margin"></a>
+    <a class="navbar-brand" href="index.html"><img src="kepek/Varga_logo.png" alt="Varga tészta logó" width="100" height="60" id="logo_left_margin"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav biggerText">
-        <a class="nav-item nav-link text-white" href="index.html">Főoldal</a>
-        <a class="nav-item nav-link text-white" href="termekek.html">Termékek <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link text-white active" href="#">Rólunk</a>
-        <a class="nav-item nav-link text-white" href="kapcsolatok.html">Kapcsolat</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="index.html">Főoldal</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="termekek.html">Termékek <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link text-white active navbarcontent" href="#">Rólunk</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="kapcsolatok.html">Kapcsolat</a>
       </div>
     </div>
   </nav>
   <!--/navbar-->
 
   <!--content-->
-    <div class="container">
-      <div>
-        Ide kell majd valami szöveg.
+  <div class="container">
+  <!--1st row-->
+  <div class="row" style="padding-top: 2%">
+      <div class="col-auto">
+        <div class="card">
+          <img src="kepek/IMG_8142_1.png" alt="tészta kép" height="250px;" width="400px;">
+        </div>
+      </div>
+
+      <div class="col-auto">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Cégünk! (a képek 250 magasak és 400 hosszúak legyenek.)</h3>
+            <p class="card-text rolunk_bigger">1984 szeptemberben alapítottuk családi vállalkozásként, lakásunk szuterénjában.</p>
+            <p class="card-text rolunk_bigger">Kezdetben hagyományos házi, nyújtott technológiával kezdtünk el termelni.</p>
+            <p class="card-text rolunk_bigger">A gyártási technológia folyamatos fejlesztésével biztosítjuk a minõséget és higiéniai feltételeket vevőink megelégedésére</p>
+          </div>
+        </div>
       </div>
     </div>
-  <!--/content-->
+    <!--/1st row-->
 
+    <!--2nd row-->
+    <div class="row" style="padding-top: 2%">
+        <div class="col-auto">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Cégünk!</h3>
+              <p class="card-text rolunk_bigger">1984 szeptemberben alapítottuk családi vállalkozásként, lakásunk szuterénjában.</p>
+              <p class="card-text rolunk_bigger">Kezdetben hagyományos házi, nyújtott technológiával kezdtünk el termelni.</p>
+              <p class="card-text rolunk_bigger">A gyártási technológia folyamatos fejlesztésével biztosítjuk a minõséget és higiéniai feltételeket vevőink megelégedésére</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-auto">
+            <div class="card">
+              <img src="kepek/IMG_8142_1.png" alt="tészta kép" height="250px" width="400px">
+            </div>
+          </div>
+      </div>
+    <!--/2nd row-->
+ </div>
+  <!--/content-->
+  <!--ez kell majd még nekem most-->
+  <!--
+  <div class="container">
+    <div>
+      Cégünket 1984 szeptemberben alapítottuk családi vállalkozásként, lakásunk szuterénjában. Kezdetben hagyományos házi, nyújtott technológiával kezdtünk el termelni. A gyártási technológia folyamatos fejlesztésével biztosítjuk a minõséget és higiéniai feltételeket vevőink megelégedésére
+    </div>
+  </div>
+  <div class="container">
+    <div>
+      Cégünket 1984 szeptemberben alapítottuk családi vállalkozásként, lakásunk szuterénjában. Kezdetben hagyományos házi, nyújtott technológiával kezdtünk el termelni. A gyártási technológia folyamatos fejlesztésével biztosítjuk a minõséget és higiéniai feltételeket vevőink megelégedésére
+    </div>
+  </div> --> 
 
      <!--footer-->
      <footer class="footer mt-auto">
       <!--card 1-->
           <div class="card border-top">
-              <div class="card-body bg-white text-white"  style="background-image: url(kepek/footer_1.jpg);">
+              <div class="card-body bg-white text-white footer_img">
                 <div class="card-text">
                 <div class="card-text"><b>Elérhetőségek:</b> <b>Telefon: </b> 06 (30) 399 4000 <b>Email: </b> pelda@gmail.com</div> 
                 <a class="card-text" href="https://www.facebook.com/Varga-T%C3%A9szta-1900992010133173/" target="mother"><i class="fab fa-facebook-square"></i></a>

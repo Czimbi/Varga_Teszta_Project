@@ -13,6 +13,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
   <!--Font awesome import-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
+<!--Critical rendering-->
+<link rel="stylesheet" type="text/css" media="screen" href="my.css">
 </head>
 <body>
    <!--making the navbar-->
@@ -23,10 +25,10 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav biggerText">
-        <a class="nav-item nav-link active text-white" href="#">Főoldal <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link text-white" href="termekek.html">Termékek</a>
-        <a class="nav-item nav-link text-white" href="rolunk.html">Rólunk</a>
-        <a class="nav-item nav-link text-white" href="kapcsolatok.html">Kapcsolat</a>
+        <a class="nav-item nav-link active text-white navbarcontent" href="#">Főoldal <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link text-white navbarcontent" href="termekek.html">Termékek</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="rolunk.html">Rólunk</a>
+        <a class="nav-item nav-link text-white navbarcontent" href="kapcsolatok.html">Kapcsolat</a>
       </div>
     </div>
   </nav>
@@ -67,31 +69,57 @@
     </div>
     <!--/slide show-->
 
-    <!--Content-->
-      <!--Cards-->
-      <div class="container">
-         <div class="card">
-          <div class="card-header">
-            <h1>
-            Tésztáinkról
-            </h1>
+    <!--content-->
+  <div class="container">
+    <!--1st row-->
+    <div class="row" style="padding-top: 2%">
+        <div class="col-auto">
+          <div class="card">
+            <img src="kepek/IMG_8142_1.png" alt="tészta kép" height="250px;" width="400px;">
           </div>
-          <div class="card-body">
-            Ide kellene leírni hogy miért is minket kell választani.
-            <p>Itt majd persze olyan hosszan lesz a tészta mellette amilyen magas a szöveg.</p>
-            <p>Nem ígérek semmit de szerintem meg tudom oldani, hogy egy videó is be illeszthető legyen.</p>
+        </div>
+  
+        <div class="col-auto">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Cégünk! (a képek 250 magasak és 400 hosszúak legyenek.)</h3>
+              <p class="card-text rolunk_bigger">1984 szeptemberben alapítottuk családi vállalkozásként, lakásunk szuterénjában.</p>
+              <p class="card-text rolunk_bigger">Kezdetben hagyományos házi, nyújtott technológiával kezdtünk el termelni.</p>
+              <p class="card-text rolunk_bigger">A gyártási technológia folyamatos fejlesztésével biztosítjuk a minõséget és higiéniai feltételeket vevőink megelégedésére</p>
+            </div>
           </div>
-         </div>
+        </div>
       </div>
-      <!--/cards-->
-</div> 
-   <!--/content-->
+      <!--/1st row-->
+  
+      <!--2nd row-->
+      <div class="row" style="padding-top: 2%">
+          <div class="col-auto">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Cégünk!</h3>
+                <p class="card-text rolunk_bigger">1984 szeptemberben alapítottuk családi vállalkozásként, lakásunk szuterénjában.</p>
+                <p class="card-text rolunk_bigger">Kezdetben hagyományos házi, nyújtott technológiával kezdtünk el termelni.</p>
+                <p class="card-text rolunk_bigger">A gyártási technológia folyamatos fejlesztésével biztosítjuk a minõséget és higiéniai feltételeket vevőink megelégedésére</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-auto">
+              <div class="card">
+                <img src="kepek/IMG_8142_1.png" alt="tészta kép" height="250px" width="400px">
+              </div>
+            </div>
+        </div>
+      <!--/2nd row-->
+   </div>
+    <!--/content-->
 
    <!--footer-->
-  <footer class="footer mt-auto">
+   <footer class="footer mt-auto">
     <!--card 1-->
         <div class="card border-top">
-            <div class="card-body bg-white text-white"  style="background-image: url(kepek/footer_1.jpg);">
+            <div class="card-body bg-white text-white footer_img">
               <div class="card-text">
               <div class="card-text"><b>Elérhetőségek:</b> <b>Telefon: </b> 06 (30) 399 4000 <b>Email: </b> pelda@gmail.com</div> 
               <a class="card-text" href="https://www.facebook.com/Varga-T%C3%A9szta-1900992010133173/" target="mother"><i class="fab fa-facebook-square"></i></a>

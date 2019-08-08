@@ -1,0 +1,13 @@
+.navbarcontent{
+    transition: all 1s;
+}
+.navbarcontent:hover{
+    transform: scale(1.2);
+}
+.footer_img{
+    background-image: url(kepek/footer_1.png);
+    background-size: cover;
+}
+.rolunk_bigger{
+   font-size: 110%;
+}
