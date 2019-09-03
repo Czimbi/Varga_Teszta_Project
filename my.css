@@ -1,5 +1,7 @@
 .navbarcontent{
     transition: all 1s;
+    margin-left: 30%;
+    margin-right: 0%;
 }
 .navbarcontent:hover{
     transform: scale(1.2);
@@ -14,4 +16,15 @@
 .row_padding{
     padding-top: 2%;
     padding-bottom: 2%;
+}
+#span_kapcs{
+    color: red;
+    font-size: 103%
+}
+#form_kapcs{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bg_color{
+    background-color: rgb(177, 13, 22);
 }

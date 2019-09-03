@@ -18,40 +18,80 @@
 <body>
    <!--making the navbar-->
    <nav class="navbar navbar-expand-md navbar-white border-bottom">
-    <a class="navbar-brand" href="index.html"><img src="kepek/Varga_logo.png" alt="Varga tészta logó" width="100" height="60" id="logo_left_margin"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav biggerText">
-        <a class="nav-item nav-link text-white navbarcontent" href="index.html">Főoldal</a>
-        <a class="nav-item nav-link text-white navbarcontent" href="termekek.html">Termékek</a>
-        <a class="nav-item nav-link text-white navbarcontent" href="rolunk.html">Rólunk</a>
-        <a class="nav-item nav-link text-white active navbarcontent" href="#">Kapcsolat  <span class="sr-only">(pillanatnyi)</span></a> 
+      <a class="navbar-brand" href="index.html"><img src="kepek/Varga_logo.png" alt="Varga tészta logó" width="100" height="60" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav biggerText">
+          <a class="nav-item nav-link active text-white navbarcontent" href="index.html">Főoldal</a>
+          <a class="nav-item nav-link text-white navbarcontent" href="termekek.html">Termékek</a>
+          <a class="nav-item nav-link text-white navbarcontent" href="rolunk.html">Rólunk</a>
+          <a class="nav-item nav-link text-white navbarcontent" href="#">Kapcsolat  <span class="sr-only">(current)</span></a>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!--/navbar-->
+    </nav>
+    <!--/navbar-->
 
   <!--content-->
    <div class="container">
-    <div>
-      Ide kell majd valami szöveg. (Igény?)
-      Esetleg több ikon.
+    <div class="row">
+      <!--Message-->
+    <div class="column col-md-auto"> 
+      <form id="form_kapcs">
+        <fieldset>
+          <h5>
+            A <span id="span_kapcs">*</span> jelölt mezők kitöltése kötelező!
+          </h5>
+          <p>
+            <input type="name" placeholder="Név *" name="Nev">
+          </p>
+          <p>
+            <input type="email" placeholder="Email *"  name="Email">
+          </p>
+          <p>
+            <input type="tel" placeholder="Telefonszám *"  name="telefon">
+          </p> 
+            <textarea name="Uzenet" rows="7" cols="50"> 
+            
+            </textarea>
+        </fieldset>
+      </form>
+    </div>
+    <!--/Message-->
+    <!--Info-->
+    <div class="column col-md-auto">
+      <div class="card">
+        <div class="card-body">
+          <h3>
+            Írjon nekünk!
+          </h3>
+          <p class="card-text">
+            Cím: 2766 Tápiószele, Vörösmarty út 11. 
+          </p>
+          <p class="card-text">
+            Telefonszám:  +36 30 375 76 51
+          </p>
+          <p class="card-text">
+            Email: vargateszta@t-online.hu
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/Info-->
     </div>
    </div>
   <!--/content-->
 
 
-     <!--footer-->
+   <!--footer-->
    <footer class="footer mt-auto">
     <!--card 1-->
         <div class="card border-top">
             <div class="card-body bg-white text-white footer_img">
               <div class="card-text">
-              <div class="card-text"><b>Elérhetőségek:</b> <b>Telefon: </b> 06 (30) 399 4000 <b>Email: </b> pelda@gmail.com</div> 
-              <a class="card-text" href="https://www.facebook.com/Varga-T%C3%A9szta-1900992010133173/" target="mother"><i class="fab fa-facebook-square"></i></a>
-              <a class="card-text" href="mailto:pelda@gmail.com" target="mother"><i class="fas fa-envelope-open"></i></a>
+              <div class="card-text"><b>Telefon: </b> +36 30 375 76 51  <b>Email: </b>  vargateszta@t-online.hu</div> 
+              <div class="card-text">2766 Tápiószele, Vörösmarty út 11. </div>
               </div>
               </div>
     <!--/card 1-->
