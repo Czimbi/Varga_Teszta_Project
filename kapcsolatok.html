@@ -38,50 +38,55 @@
     <div class="row">
       <!--Message-->
     <div class="column col-md-auto"> 
-      <form id="form_kapcs">
-        <fieldset>
-          <h5>
-            A <span id="span_kapcs">*</span> jelölt mezők kitöltése kötelező!
-          </h5>
-          <p>
-            <input type="name" placeholder="Név *" name="Nev">
-          </p>
-          <p>
-            <input type="email" placeholder="Email *"  name="Email">
-          </p>
-          <p>
-            <input type="tel" placeholder="Telefonszám *"  name="telefon">
-          </p> 
-            <textarea name="Uzenet" rows="7" cols="50"> 
-            
-            </textarea>
-        </fieldset>
+      <form style="margin-top: 2%;">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Név</label>
+            <input type="text" class="form-control" id="inputPassword4" placeholder="Név" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Telefonszám</label>
+          <input type="tel" class="form-control" id="inputAddress" placeholder="+36 (30) 375 7651" required>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Üzenet</label>
+          <textarea class="form-control" placeholder="Üzenet" required>
+          </textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">Küldés</button>
       </form>
     </div>
     <!--/Message-->
     <!--Info-->
-    <div class="column col-md-auto">
-      <div class="card">
-        <div class="card-body">
-          <h3>
-            Írjon nekünk!
-          </h3>
-          <p class="card-text">
-            Cím: 2766 Tápiószele, Vörösmarty út 11. 
-          </p>
-          <p class="card-text">
-            Telefonszám:  +36 30 375 76 51
-          </p>
-          <p class="card-text">
-            Email: vargateszta@t-online.hu
-          </p>
-        </div>
+    <div class="card text-center text-white bg-secondary" style="width: 18rem; margin-top: 1%;">
+      <div class="card-body">
+        <h5 class="card-title">Írjon nekünk!</h5>
+        <p class="card-text">Cím: 2766 Tápiószele, Vörösmarty út 11. </p>
+        <p class="card-text">Telefonszám:  +36 30 375 76 51</p>
+        <p class="card-text">Email: vargateszta@t-online.hu</p>
       </div>
     </div>
     <!--/Info-->
     </div>
    </div>
   <!--/content-->
+  <!--Lorem ipsum-->
+  <div class="container">
+    <p>
+      Ez csak egy helyettesítő szöveg még kellene valami ide azért!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu tincidunt tortor, vel ullamcorper purus. Phasellus bibendum mollis leo, id mattis libero ultrices sit amet. Praesent rhoncus nisi massa, sed egestas dolor pellentesque sed. Nam massa lacus, lacinia ut diam vehicula, faucibus cursus est. Praesent suscipit magna at tristique fringilla. Donec pulvinar lacinia quam ultricies elementum. Mauris laoreet lectus placerat sagittis interdum. Vivamus tincidunt vestibulum lorem, in commodo nisl. Nam nulla odio, vehicula ac tincidunt at, dapibus nec est. Etiam et massa maximus, vulputate erat ac, ullamcorper velit. Nullam vel dictum magna. Pellentesque ac massa vitae urna semper venenatis vel vel lorem. Nulla tristique nisi euismod enim sodales, vel vestibulum diam porta. 
+    </p>
+    <p>
+      Aenean efficitur enim a tempus mollis. Nulla facilisi. Nullam consequat imperdiet sapien imperdiet placerat. Donec vel libero turpis. Praesent blandit purus eu massa lacinia, vitae faucibus sapien pellentesque. Curabitur tincidunt ornare leo quis aliquam. Mauris tellus dolor, venenatis eget libero ac, aliquam volutpat libero. Aliquam molestie sapien et nisl hendrerit hendrerit sit amet ut justo. Donec mollis porttitor nunc. Quisque consectetur eleifend augue, sed rutrum nisi blandit feugiat. Aliquam gravida scelerisque risus, eu dictum ex vestibulum ac. 
+    </p>
+  </div>
 
 
    <!--footer-->
