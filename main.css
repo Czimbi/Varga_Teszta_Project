@@ -3768,8 +3768,6 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-image: url(kepek/navi_1v1.png);
-  background-size: cover;
 }
 .navbar > .container,
 .navbar > .container-fluid {

@@ -28,3 +28,15 @@
 #bg_color{
     background-color: rgb(177, 13, 22);
 }
+.navbar{
+    background-color:rgb(104, 2, 7);
+}
+.termekek_content{
+    transition: all 1s;
+}
+.termekek_content:hover{
+    transform: scale(1.2);
+}
+.fill{
+    padding-bottom: 15%;
+}
